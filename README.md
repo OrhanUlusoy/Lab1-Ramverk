@@ -1,9 +1,9 @@
 # Lab1-Ramverk
 
-## Setup
+## Installation
 uv sync
 
-## Run environment check
+## Kör miljöcheck
 uv run check_env.py
 
 ## Notis om PyTorch (CPU vs GPU/CUDA)
