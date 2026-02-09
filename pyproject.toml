@@ -7,5 +7,12 @@ dependencies = [
     "jupyter>=1.1.1",
     "pandas>=3.0.0",
     "scikit-learn>=1.8.0",
-    "torch>=2.10.0",
+    "torch==2.10.0+cu130",
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+index-url = "https://pypi.org/simple"
+extra-index-url = [
+    "https://download.pytorch.org/whl/cu130",
 ]
